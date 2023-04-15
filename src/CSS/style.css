@@ -1,0 +1,85 @@
+body {
+    background: #e6dada;
+    color: #333;
+    font-family: Lato, sans-serif;
+    background-color: #35a4e4;
+}
+
+.wrapper {
+    display: block;
+    width: 500px;
+    margin: 10px auto 100px;
+    background-color: #dee6e5;
+    padding: 0px 10px 10px 10px;
+    border-radius: 10px
+}
+
+.wrapper__btn {
+    padding: 15px;
+    background-color: rgb(13, 224, 214);
+    color: rgb(235, 95, 95);
+    border-color: rgb(233, 241, 236);
+    border-radius: 50%;
+    margin: 5px 0px 5px 0px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.wrapper__section {
+    align-items: center;
+    margin: auto;
+}
+
+#income {
+    margin-left: 30%;
+    text-align: center;
+}
+#addIncome {
+    text-align: center;
+}
+#addExpense {
+    text-align: center;
+}
+
+.wrapper__main {
+    text-align: center;
+}
+
+.wrapper__addbtn {
+    background-color: rgb(27, 190, 155);
+    color: white;
+    border-color: rgb(59, 221, 116);
+}
+
+/* #showIncome,
+#showinc {
+    color: green;
+    border-color: green;
+} */
+
+#showExpense,
+/* #showexp {
+    color: red;
+    border-color: red;
+} */
+
+/* #showRemaining,
+#showrem {
+    color: purple;
+    border-color: purple;
+} */
+
+.wrapper__show {
+    border: none;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+#addIncome{
+    margin-left: 40px;
+}
+.wrapper__table{
+    margin:auto;
+}
+th, td{
+    padding-right: 30px;
+}
